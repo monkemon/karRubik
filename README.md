@@ -25,9 +25,9 @@ Suppose you're in the main folder
 
 ### basic workflow
 - `./bin/karRubik-main`
-- nc 3
+- `nc 3`
 - turn on the visualisation by `gui`
-- nc 3 (to clear the graphics buffer so it doesn't look glitchy, i haven't fixed that and probably won't anytime soon)
+- `nc 3` (to clear the graphics buffer so it doesn't look glitchy, i haven't fixed that and probably won't anytime soon)
 - perform some moves like `R`, `1-2R'`, `F`, `2B` and so on...
 - `sc` to save the cube
 - `ls` to see move history (in formalised form)
@@ -36,5 +36,5 @@ Suppose you're in the main folder
 - `exit` to quit the program
 
 ### Notes
-- always turn off the gui before exitting
+- **always turn off the gui before exitting**
 - after exit there will be some memory leak warnings caused by sdl2
