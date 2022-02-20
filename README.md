@@ -29,6 +29,7 @@ Suppose you're in the main folder
 - turn on the visualisation by `gui`
 - `nc 3` (to clear the graphics buffer so it doesn't look glitchy, i haven't fixed that and probably won't anytime soon)
 - perform some moves like `R`, `1-2R'`, `F`, `2B` and so on...
+- ** `random x` ** to perform x random moves
 - `sc` to save the cube
 - `ls` to see move history (in formalised form)
 - `goto x` to step back to xth step in history
@@ -38,3 +39,4 @@ Suppose you're in the main folder
 ### Notes
 - **always turn off the gui before exitting**
 - after exit there will be some memory leak warnings caused by sdl2
+- making the cube 200x200x200 and performing 30 random moves on it creates literal peak of art (and a torture for your CPU 😉)
