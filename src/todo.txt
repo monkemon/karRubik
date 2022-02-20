@@ -1,0 +1,12 @@
+parse cube rotations in Parser class --done
+
+save cube/ rotation history to file --hotovo
+
+load cube from file --hotovo
+
+savecube = saves cube in png
+
+loadcube = loads cube from history file --hotovo
+
+gui - starts graphically 
+
